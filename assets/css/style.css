@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #630404;
+    font-size: 18px;
+}
+
+#container-bio{
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #f7e818ad;
+    font-size: 18px;
+}
+
+#container-crt{
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pixelify Sans', cursive;
+    background-color: rgb(245, 237, 213);
+    font-size: 18px;
+}
+
+#container-prm{
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pixelify Sans', cursive;
+    background-color: rgba(6, 252, 252, 0.178);
+    font-size: 18px;
+}
+
+#container-contact{
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+#head{
+    display: table;
+    background-image: url(../img/thomas-alva-edison-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+
+#head h1{
+    text-align: center;
+    line-height: 350px;
+    color: #7af5f5;
+    opacity: 0.8;
+    vertical-align: middle;
+}
+
+#head-bio{
+    display: table;
+    background-image: url(../img/Young_Thomas_Edison.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+
+#head-crt{
+    display: table;
+    background-image: url(../img/thomas-edison-creando.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+
+#head-prm{
+    display: table;
+    background-image: url(../img/medalla-edison.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+
+#head-contact{
+    display: table;
+    background-image: url(../img/nikola-tesla-y-edison.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+
+#head-bio h1{
+    text-align: center;
+    line-height: 350px;
+    color: #7af5f5;
+    opacity: 0.8;
+}
+
+#head-crt h1{
+    text-align: center;
+    line-height: 350px;
+    color: #7af5f5;
+    opacity: 0.8;
+}
+
+#head-crt h1{
+    text-align: center;
+    line-height: 350px;
+    color: #7af5f5;
+    opacity: 0.8;
+}
+
+#head-prm h1{
+    text-align: center;
+    line-height: 350px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+#head-contact h1{
+    text-align: center;
+    line-height: 350px;
+    color: #7af5f5;
+    opacity: 0.8;
+}
+
+.img-bio{
+    text-align: center;
+}
+
+.img-bio img{
+    width: 100%;
+    height: 500px;
+}
+
+.img-bio-2 img{
+    width: 50%;
+}
+
+.img-crt img{
+    float: left;
+    width: 30%;
+    height: 415px;
+    padding-right: 2%;
+}
+
+.img-crt-2{
+    text-align: center;
+}
+
+.img-crt-2 img{
+    width: 49.7%;
+    height: 300px;
+}
+
+.img-crt-3{
+    text-align: center;
+}
+
+.img-crt-3 img{
+    width: 70%;
+    height: 400px;
+}
+
+#nav{
+    display: table;
+    background-color: #77c999;
+    color: #fff;
+    width: 100%;
+}
+
+#nav ol{
+    display: flex;
+}
+
+#nav ol a{
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+#nav ol a li{
+    list-style:none;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+}
+
+#nav ol a li:hover{
+    background-color: #8fcacc; 
+    color: #e6f14c; 
+}
+
+#option{
+    background-color: #8fcacc;
+}
+
+#structure{
+    color: #fff;
+    margin: 3% 4% 3% 4%;
+}
+
+#structure h2{
+    margin-bottom: 2%;
+}
+
+#structure-bio{
+    color: #000;
+    margin: 3% 4% 3% 4%;
+}
+
+#structure-crt{
+    color: #0f7de4;
+    margin: 3% 4% 3% 4%;
+}
+
+#structure-prm {
+    color: #7be63e;
+    margin: 3% 4% 3% 4%;
+}
+
+#structure p{
+    text-align: justify;
+}
+
+#footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#structure-contact{
+    padding: 5% 5% 5% 5%;
+}
+
+.gps{
+    float: right;
+}
+
+.fa-medal{
+    color: rgb(223, 223, 65);
+}
+
+@media (max-width: 951px) {
+    #structure-contact{
+        text-align: center;
+        display: flex ;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:900px) {
+    h2{
+        text-align: center;
+    }
+    .img-bio img{
+        width: 100%;
+    }
+    .img-crt{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2%;
+    }
+    .img-crt img{
+        width: 100%;
+    }
+    .img-crt-2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .img-crt-2 img{
+        width: 100%;
+        height: 300px;
+    }
+    .img-crt-3 img{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+    #nav ol{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav ol a {
+        border-right: 0;
+        text-align: center;
+    }
+    #nav ol a li:hover{
+        border-bottom: 1px solid #fff;
+    }
+    #structure h2{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+}
